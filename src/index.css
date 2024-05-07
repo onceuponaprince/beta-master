@@ -1,0 +1,37 @@
+body {
+  background: #F0E7EA;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-x: hidden;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#root {
+  background: #393A3F;
+  overflow: hidden;
+
+}
+
+#container {
+
+}
+
+@media (max-width: 950px) {
+  #root {
+    background: #393A3F;
+  }
+}
